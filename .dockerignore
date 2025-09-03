@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+tools/__pycache__
+.vscode/
+
+# 環境/虛擬環境
+.env
+.venv/
+venv/
+env/
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker 自己的東西
+docker-compose.override.yml
+.dockerignore
+
+
+# Local scripts
+*.bat
+*.sh

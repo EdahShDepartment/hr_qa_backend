@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  HR_QA:
+    build: .
+    image: HR_QA
+    container_name: HR_QA-container
+    ports:
+      - "5001:5001"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    command: python wsgi.py
