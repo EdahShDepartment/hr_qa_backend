@@ -8,5 +8,3 @@ waitress==3.0.2
 langchain
 sentence_transformers
 rank_bm25
-glob
-re
